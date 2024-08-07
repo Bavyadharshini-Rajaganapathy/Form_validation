@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <script src="app1.js" defer></script>
+    <title>Register</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="split left">
+            <div class="centered">
+            <div class="image1">
+            
+                <img src="https://static.vecteezy.com/system/resources/previews/003/019/310/large_2x/young-girl-studying-at-her-room-concept-free-vector.jpg" alt="Image" height=550px width=750px >
+          </div>
+          </div>
+          </div>
+        <div class="split right">
+            <div class="'centered">
+        <form id="form">
+            <h1>Registration Form</h1>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" onclick="validuser()">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" onclick="validemail()">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="cpassword">Confirm Password</label>
+                <input type="password" id="cpassword" name="cpassword">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="number">Phone number</label>
+                <input type="text" id="number" name="number">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
